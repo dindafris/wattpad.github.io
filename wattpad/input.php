@@ -68,34 +68,5 @@
   <br><br><br>
 </div>
 
-<!-- <div class="header">
-    <p>Tambahkan info cerita</p>
-    <h6>Cerita tak berjudul</h6>
-    <i style='font-size:24px' class='fas'>&#xf053;</i>
-
-</div>
-<div class="line"></div> -->
-
-<!-- <div class="clearfix">
-  <div class="column menu">
-    <ul>
-      <li>The Flight</li>
-      <li>The City</li>
-      <li>The Island</li>
-      <li>The Food</li>
-    </ul>
-  </div> -->
-
-  <!-- <div class="column content">
-    <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-    <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
-  </div>
-</div> -->
-
-<!-- <div class="footer">
-  <p>Footer Text</p>
-</div> -->
-    
 </body>
 </html>
