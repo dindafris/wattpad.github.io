@@ -1,0 +1,277 @@
+{box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: fixed;
+  overflow: hidden;
+  padding: 10px 10px;
+  z-index: 1;
+  background-color: #FFFFFF;
+  width: 100%;
+  border-bottom: 1px solid #dee2e6;
+  top: 0%;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 6px;
+}
+
+
+
+.header a:hover {
+  background-color: #EEEEEE;
+  color: black;
+}
+
+
+.header p{
+    position: absolute;
+    left: 55px;
+    top: 0px;
+    
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #8B8B8B;
+}
+
+.header h6{
+position: absolute;
+width: 189px;
+height: 23px;
+left: 55px;
+top: -16px;
+
+font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-style: normal;
+font-weight:600;
+font-size: 20px;
+line-height: 26px;
+
+color: #000000;
+}
+
+.button-1 {
+  float: right;
+  border-radius: 5px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  top: 6px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btl{
+  background-color: #EEEEEE;
+  color: #313131;
+  margin-right: 20px;
+}
+
+.next{
+  color: #FFFFFF;
+  background-color: #FF6122;
+  margin-right: 20px;
+  
+}
+
+.next:hover {
+  background-color: #ff4c05;
+}
+
+.btl:hover{
+  background-color: #e6e6e6;
+}
+
+
+.content .box-cover{
+  position: absolute;
+  width: 194px;
+  height: 322px;
+  left: 208px;
+  top: 120px;
+  
+  background: #EEEEEE;
+  border-radius: 4px;
+}
+
+.box-cover i{
+  margin-left: 67px;
+  margin-top: 95px;
+  color: #8B8B8B;
+}
+
+.box-cover p{
+  text-align: center;
+  color: #8B8B8B;
+}
+
+.box-cover span{
+  color: #8B8B8B;
+  float: right;
+  margin-right: 10px;
+  margin-top: 44%;
+}
+
+.content .box-info{
+position: absolute;
+width: 580px;
+height: 570px;
+left: 446px;
+top: 120px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3), inset 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.navbar{
+  text-align: left;
+  font-size: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.nav-link{
+font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-decoration: none;
+display: inline-block;
+padding: 13px 13px;
+color: #212529;
+margin-right: 5px;
+border-bottom: 4px solid #FF6612;
+}
+
+.nav-link:hover {
+  text-decoration:none;
+  background-color: #e6e6e6;
+  border-bottom: 4px solid #FF6612;
+}
+.nav-link.current {
+  border-bottom: 4px solid #ff4c05;
+}
+
+
+.container{
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  left: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.container .judul{
+  width: 94%;
+}
+
+.container .tag{
+  width: 28%;
+}
+
+.container .hakcpt{
+  width: 50%;
+}
+
+.container textarea{
+  width: 94%;
+  resize: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.container label{
+  color: #222222;
+
+}
+
+.container i{
+  font-size: 20px;
+  color: #8B8B8B;
+}
+
+.button-2{
+  position: absolute;
+  top: 407px;;
+  left: 200px;
+  color:#EEEEEE;
+  border: none;
+  padding: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+}
+
+.button-2:hover{
+  background-color: #e6e6e6;
+}
+
+.footer{
+  position: absolute;
+  top: 110%;
+  left: 30px;
+}
+
+.one{
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+  
+}
+
+.one li{
+  margin: 10px;
+  float: left;
+}
+
+.two{
+  color: #8B8B8B;
+}
+
+.copy{
+  color: #8B8B8B;
+  font-weight: normal;
+}
